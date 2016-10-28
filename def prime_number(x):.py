@@ -6,4 +6,4 @@ def prime(x):
 			prime1 = False
 	if prime1:
 		prime1(x)
-prime(33)
+prime(50)
