@@ -1,9 +1,9 @@
-def prime(x):
-	for x in range (2,x):
+def prime(y):
+	for x in range (2,y):
 		prime1 = True
-	for i in range (2,x):
-		if (x % i ==0):
+	for i in range (2,y):
+		if (y % i ==0):
 			prime1 = False
 	if prime1:
-		prime1(x)
+		prime1(y)
 prime(50)
